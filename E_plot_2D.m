@@ -1,3 +1,4 @@
+% This function plots the normalized E pattern in polar co-ordinates in 2D
 function E_plot_2D(L_Lamda_ratio)
     % Define constants
     step = 0.01;

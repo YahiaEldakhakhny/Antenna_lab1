@@ -7,9 +7,10 @@ function AF_cartesian(N, alpha, d_lamda_ratio)
     psi = alpha + 2*pi*d_lamda_ratio * cos(gamma);
 
     AF = sin(N*psi/2) ./ (N * sin(psi/2));
+    AF = abs(AF);
     
     figure
-    plot(psi, AF);
+    plot(psi, AF, 'linewidth', 2);
     xlabel('\Psi')
     ylabel('AF')
     title('Array Factor Vs \Psi')

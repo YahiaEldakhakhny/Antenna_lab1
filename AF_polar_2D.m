@@ -1,5 +1,5 @@
 % This function plots the normalized Array factor pattern in polar co-ordinates in 2D
-function AF_polar(N, alpha, d_lamda_ratio)
+function AF_polar_2D(N, alpha, d_lamda_ratio)
     % Define constants
     step = 0.01;
     gamma = -pi:step:pi;

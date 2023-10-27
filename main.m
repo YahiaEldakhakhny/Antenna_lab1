@@ -9,4 +9,5 @@ N = input("Enter number of elements (N): ");
 alpha = input("Enter the progressive shift (alpha): ");
 
 AF_cartesian_2D(N, alpha, d_lamda_ratio);
+AF_polar_2D(N, alpha, d_lamda_ratio);
 AF_cartesian_3D(N, alpha, d_lamda_ratio);

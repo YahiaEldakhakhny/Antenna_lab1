@@ -8,5 +8,5 @@ d_lamda_ratio = input("Enter spacing w.r.t lamda (d): ");
 N = input("Enter number of elements (N): ");
 alpha = input("Enter the progressive shift (alpha): ");
 
-AF_cartesian(N, alpha, d_lamda_ratio);
+AF_cartesian_2D(N, alpha, d_lamda_ratio);
 AF_cartesian_3D(N, alpha, d_lamda_ratio);
